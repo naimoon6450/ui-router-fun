@@ -1,0 +1,20 @@
+<div>
+    <div class="m-3">
+
+        <!-- a = <input type="text" ng-model="a" /><br /> -->
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">a</span>
+            <input ng-model="a" type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">b</span>
+            <input ng-model="b" type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <!-- b = <input type="text" ng-model="b" /><br /> -->
+    </div>
+    <div class="m-3">
+
+        <button ng-click="doSum()" type="button" class="btn btn-primary m-3">Find Sum</button>
+        <button ng-click="doMultiply()" type="button" class="btn btn-primary m-3">Find Product</button>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.30",
+    "http-server": "^14.1.0"
+  }
+}
